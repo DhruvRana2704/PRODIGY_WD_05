@@ -15,7 +15,8 @@ A simple weather application that allows users to input a city name and displays
 3. **Error Handling**: If the city is not found, an alert message will be shown indicating that the city was not found.
 
 ## Screenshots
-![image](https://github.com/user-attachments/assets/9fee4875-daa3-401d-9545-080f46e96111)
+![Screenshot 2024-09-11 153159](https://github.com/user-attachments/assets/3dd26116-2209-47d1-847e-a130dafbfe76)
+
 
 ## Code Structure
 
