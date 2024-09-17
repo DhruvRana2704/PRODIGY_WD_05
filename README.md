@@ -15,8 +15,16 @@ A simple weather application that allows users to input a city name and displays
 3. **Error Handling**: If the city is not found, an alert message will be shown indicating that the city was not found.
 
 ## Screenshots
+- Normal Design
+
 ![Screenshot 2024-09-11 153159](https://github.com/user-attachments/assets/3dd26116-2209-47d1-847e-a130dafbfe76)
 
+- Responsive Design
+  
+![image](https://github.com/user-attachments/assets/6b815a21-2087-42a9-bc71-34624448530c)
+
+
+- Link: weather.freewebhostmost.com
 
 ## Code Structure
 
@@ -32,4 +40,5 @@ A simple weather application that allows users to input a city name and displays
 For any questions or inquiries, please contact:
 - Dhruv Rana (ddhruvrana@gmail.com)
 
+  
 **Weather App Project**
