@@ -2,6 +2,7 @@ body{
     max-block-size: 100%;
     background: url(Images/background.jpg) no-repeat;
     background-size:100%;
+    background-repeat: repeat;
     font-family: "Montserrat", sans-serif;
     overflow:hidden;
 }
@@ -47,10 +48,11 @@ body{
     gap: 0.8rem;
 }
 .elements{
-    margin-left: 25%;
+
     margin-top: 3vh;
     display: flex;
     gap: 2rem;
+    justify-content: center;
     font-size: larger;
 }
 .temp{
@@ -100,11 +102,17 @@ body{
     display: flex;
     flex-direction: column;
 }
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 1350px) {
+    body{
+        background-size: 150%;
+    }
+}
+@media only screen and (max-width: 900px) {
+
     body {
-        background: #fff 100%;
         font-size: smaller;
-        background-color: purple;
+        background-image: url("images/bg.jpg");
     }
     .container{
         position: relative;
@@ -114,8 +122,7 @@ body{
         height: fit-content;
         border-radius: 15px;
         color: #fff;
-        margin-left:1rem ;
-        color: #fff;
+        margin-left:1rem;
     }
     .main{
         font-size: 1.5rem;
@@ -138,18 +145,9 @@ body{
     .temp{
         font-size: 2rem;
     }
-    .humidity
-    {
-        position: relative;
-        right: 30vw;
-        font-size: 0.5rem;
-        margin-right: 2rem;
-    }
-    .windspeed{
-    position: relative;
-    right:18vw;
-    font-size: 0.5rem;
-    margin-right: 2rem;
+    .elements{
+        display: flex;
+        justify-content: center;
     }
 
     img{
@@ -160,3 +158,14 @@ body{
         font-size: 1rem;
     }
     }
+
+    @media only screen and (max-width: 350px) {
+    body{
+        background-size: 150%;
+    }
+    .elements
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
