@@ -25,7 +25,7 @@ A simple weather application that allows users to input a city name and displays
 ![image](https://github.com/user-attachments/assets/b66838c1-7ecb-4fc5-a821-adce0df8df15)
 
 
-- Link: weather.freewebhostmost.com
+- Link: https://weather.freewebhostmost.com/
 
 ## Code Structure
 
