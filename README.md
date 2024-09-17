@@ -22,6 +22,7 @@ A simple weather application that allows users to input a city name and displays
 - Responsive Design
   
 ![image](https://github.com/user-attachments/assets/6b815a21-2087-42a9-bc71-34624448530c)
+![image](https://github.com/user-attachments/assets/b66838c1-7ecb-4fc5-a821-adce0df8df15)
 
 
 - Link: weather.freewebhostmost.com
