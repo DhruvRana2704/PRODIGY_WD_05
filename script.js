@@ -14,8 +14,6 @@ let deg=document.getElementById("deg")
 let speed=document.getElementById("speed") 
 let sunrise=document.getElementById("sunrise")
 let sunset=document.getElementById("sunset")
-let lat;
-let lon;
 let icon=document.querySelector(".icon")
 let body=document.querySelector("body");
 const url=`https://api.openweathermap.org/data/2.5/weather?units=metric&q=`;
@@ -70,13 +68,11 @@ async function call(city)
          setTimeout(()=>{error.style.opacity="0"},1500);
       }
       let data=await response.json();
-      let lat=data.coord.lat;
-      let lon=data.coord.lon;
       console.log(data)
       temp.innerHTML=`${Math.round(data.main.temp)}°c`;  
       upperText.innerHTML=`Currently in${cap(city).bold()}`
       humidity.innerHTML=`${data.main.humidity}%`;
-      speed.innerHTML=`${parseInt(data.wind.speed)} km/h`;
+      speed.innerHTML=`${parseInt(data.wind.speed)*3.6} km/h`;
       icon.innerHTML=`<img src="${getIcon(data.weather[0].main)}.png" height="100px" width="100px" alt="icon">`
       mood.innerHTML=`${cap(data.weather[0].description)}`;
       }
@@ -87,4 +83,3 @@ e.preventDefault();
 city=`${btnText.value}`;
 call(city);   
 })
-
